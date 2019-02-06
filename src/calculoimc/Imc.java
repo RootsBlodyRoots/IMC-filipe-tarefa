@@ -1,6 +1,10 @@
 
 package calculoimc;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
 
 
 public class Imc {
@@ -52,11 +56,29 @@ public class Imc {
     }
     public String Identidade(String nome){
         
-        
         return nome;
         
         
     }
     
-     }
+    public String Gravar() throws IOException{
+        
+    FileWriter arq = new FileWriter("d:\\tabuada.txt");
+    PrintWriter gravarArq = new PrintWriter(arq);
+    
+    
+                   
+    
+        return null;
+        
+        
+    }
+    
+ 
+ }
+
+
+    
+    
+     
      

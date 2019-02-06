@@ -14,6 +14,7 @@ public class CalculoImc {
         janela.setSize(500, 500);
         janela.add(painel);
         janela.setVisible(true);
+        
     }
 
 }
